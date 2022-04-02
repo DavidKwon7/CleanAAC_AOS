@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "CleanAAC_AOS"
-include ':app'
-include ':presentation'
+include ':presentaion'
+include ':data'
