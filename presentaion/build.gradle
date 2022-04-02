@@ -94,11 +94,6 @@ dependencies {
     implementation "com.google.dagger:hilt-android:2.40.5"
     kapt "com.google.dagger:hilt-android-compiler:2.38.1"
 
-
-    /**
-     * 새로운 app 단위의 build.gradle(compose.ver) 에서는 classpath해서 Hilt 를 추가해줄 필요가 없는건가..?
-     * 위에 2줄만 써도 실행이 되는 것 같네... (더 간단해서져서 좋은건가?_
-     */
 }
 
 kapt {
