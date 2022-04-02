@@ -16,3 +16,4 @@ rootProject.name = "CleanAAC_AOS"
 include ':presentaion'
 include ':data'
 include ':remote'
+include ':local'
