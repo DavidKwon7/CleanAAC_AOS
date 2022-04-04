@@ -29,7 +29,6 @@ class MainViewModel @Inject constructor(
     fun getUsers(owner: String) {
         // map은 필요없나..?
         getUserUseCase.execute(owner)
-            .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
                 _getUser.value = it.map { mapper.to(it) }
             }, {
